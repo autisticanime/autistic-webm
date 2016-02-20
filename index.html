@@ -12,7 +12,7 @@
 </head>
 <body>
   <video id="video" autoplay preload="auto">
-    <source id="webm" src="/autisticanime/autistic-webm/tree/master/14555689891060.webm" type="video/webm" />
+    <source id="webm" src="https://raw.githubusercontent.com/autisticanime/autistic-webm/master/14555689891060.webm" type="video/webm" />
   </video>
 
   <script>
@@ -28,7 +28,7 @@
       videoPlayer.play();
       var videos = getWebmList();
       videos = videos[Math.floor(Math.random() * videos.length)];
-      videoPlayer.src = "/autisticanime/autistic-webm/tree/master/" + videos + ".webm";
+      videoPlayer.src = "https://raw.githubusercontent.com/autisticanime/autistic-webm/master/" + videos + ".webm";
     }
 
     videoPlayer.addEventListener('ended', playIt, false);
